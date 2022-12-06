@@ -15,5 +15,5 @@ INSERT INTO Collegues VALUES (0004, 'Elena Flower', '29', 'Moscow');
 INSERT INTO Collegues VALUES (0005, 'Anton Antonov', '16', 'Permi');
 INSERT INTO Collegues VALUES (0006, 'Alexander Machedon', '10', 'Berlin');
 -- fetch 
-SELECT * FROM Collegues 
+SELECT name FROM Collegues 
 WHERE adress in('Moscow') and age >= 18 and age < 30
